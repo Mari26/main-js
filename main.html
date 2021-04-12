@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>
+</head>
+
+<body>
+
+    <script>
+        var txt;
+        var input = confirm("გსურთ რეგისტრაცია?");
+
+        var person = prompt("გთხოვთ შეიყვანოთ სახელი და გვარი");
+        if (person == null || person == "") {
+            document.write(txt = "მომხმარებელმა გააუქმა შეთავაზება");
+        } else {
+            document.write(txt = "გამარჯობა " + "-" +
+                person + "-" + "თქვენ წარმატებით დარეგისტრირდით");
+        }
+    </script>
+</body>
+
+</html>
